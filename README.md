@@ -1,4 +1,4 @@
-# Monthly Expenses Trackizer App UI UX Design Convent Into Flutter Code
+# Monthly Expenses Trackizer App UI UX Clonned.
 
 UI UX App Design by: [symu.co](https://symu.co/)
 
