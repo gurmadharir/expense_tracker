@@ -109,28 +109,28 @@ class SignupWithEmail extends StatelessWidget {
             const Spacer(flex: 2),
 
             //form
-            const MyTextField(
+            MyTextField(
               hintText: "Email",
-              fillColor: Color.fromARGB(255, 3, 237, 206),
+              fillColor: AppColors.gray60,
               prefixIcon: Icons.email,
-              prefixIconColor: Color.fromARGB(255, 220, 244, 7),
+              prefixIconColor: AppColors.gray,
             ),
             const SizedBox(height: 20),
 
-            const MyTextField(
+            MyTextField(
               hintText: "Password",
-              fillColor: Color.fromARGB(255, 3, 237, 206),
+              fillColor: AppColors.gray60, 
               prefixIcon: Icons.password,
-              prefixIconColor: Color.fromARGB(255, 242, 238, 8),
+              prefixIconColor: AppColors.gray,
               suffixIcon: Icons.visibility_off,
             ),
             const SizedBox(height: 20),
 
-            const MyTextField(
+            MyTextField(
               hintText: "Confirm your password",
-              fillColor: Color.fromARGB(255, 3, 237, 206),
+              fillColor: AppColors.gray60, 
               prefixIcon: Icons.lock,
-              prefixIconColor: Color.fromARGB(255, 242, 238, 8),
+              prefixIconColor: AppColors.gray,
               suffixIcon: Icons.visibility_off,
             ),
             const SizedBox(height: 45),
